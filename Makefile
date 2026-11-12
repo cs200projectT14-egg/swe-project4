@@ -1,6 +1,9 @@
-.PHONY: all build
+.PHONY: all build clean
 
 all: build
 
 build:
-	@echo building stuff
+	javac src/*.java
+
+clean:
+	rm -f src/*.class
