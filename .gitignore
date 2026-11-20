@@ -1,1 +1,3 @@
 *.class
+src/clients/*.txt
+src/reports/*.txt
